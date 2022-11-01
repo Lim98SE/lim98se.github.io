@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+html {
+    background: #000525;
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size-adjust: 1;
+    padding: 16px;
+    text-align: center;
+}
+
+div.navbar {
+    background: #002065;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 16px;
+    text-align: left;
+}
+
+div.left {
+    background: #002065;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 16px;
+    float: left;
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+div.right {
+    background: #002065;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 16px;
+    float: right;
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+div.center {
+    background: #002065;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 16px;
+    float: center;
+    width: 45%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+div.container {
+    display: grid;
+}
+
+div.row {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+a {
+    color: #0066FF;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+a:hover {
+    color: #2288FF;
+    transition: color 0.25s;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    background: #FFFFFF;
+    border: 0px;
+    height: 4px;
+}
+
+input, textarea {
+    background: #002065;
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    border: 0px;
+    padding: 8px;
+}
+
+input {
+    width: 40%;
+    font-size-adjust: 1;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 40%;
+    height: 400px;
+    font-size-adjust: 0.8;
+    border-radius: 8px;
+}
+
+button {
+    background: #002065;
+    color: #FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+    border: 0px;
+    padding: 8px;
+    border-radius: 8px;
+}
